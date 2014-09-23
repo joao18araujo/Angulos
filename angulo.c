@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-double grausrad(angulograus)
+double grausrad(double angulograus)
 {
-	double angulogras, angulorad;
+	double angulorad;
 	angulorad=angulograus*3.1415926536/180;
 	return angulorad;
 }
