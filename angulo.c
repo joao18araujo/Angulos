@@ -7,5 +7,6 @@ int main()
   printf("Digite o angulo: ");
   scanf("%lf", &angulo);
   printf("sen = %f, cos = %f\n", sin(angulo), cos(angulo));
+  printf("tg = %f\n", tan(angulo));
   return 0;
 }
