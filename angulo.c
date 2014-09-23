@@ -13,8 +13,8 @@ int main()
 	double angulo;
 	printf("Digite o angulo (em graus): ");
 	scanf("%lf", &angulo);
-	printf("%f\n", grausrad(angulo));
-	printf("sen = %f, cos = %f\n", sin(angulo), cos(angulo));
-	printf("tg = %f\n", tan(angulo));
+	printf("angulo em radianos = %f\n", grausrad(angulo));
+	printf("sen = %f, cos = %f\n", sin(grausrad(angulo)), cos(grausrad(angulo)));
+	printf("tg = %f\n", tan(grausrad(angulo)));
 	return 0;
 }
